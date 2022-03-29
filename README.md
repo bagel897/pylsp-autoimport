@@ -1,7 +1,7 @@
 # pylsp-autoimport
 
 "autoimport plugin for pylsp"
-Simple around [autoimport](lyz-code/autoimport)
+Simple around [autoimport](https://github.com/lyz-code/autoimport)
 
 This is a plugin for [Python LSP Server](https://github.com/python-lsp/python-lsp-server).
 
