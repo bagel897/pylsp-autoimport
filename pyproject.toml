@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pylsp-autoimport"
+version = "0.1.0"
+description = ""
+authors = ["bageljr <bageljr897@protonmail.com>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+autoimport = "^1.2.2"
+python-lsp-server = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."pylsp"]
+pylsp_autoimport = "pylsp_autoimport.plugin"
+
