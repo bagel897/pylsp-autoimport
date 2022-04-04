@@ -1,8 +1,8 @@
 # pylsp-autoimport
 
-"autoimport plugin for pylsp"
-Simple around [autoimport](https://github.com/lyz-code/autoimport)
-
+"autoimport plugin for pylsp"  
+Simple wrapper around [autoimport](https://github.com/lyz-code/autoimport)  
+Version 0.0.1 formats the entire program. This is more proof of concept than anything. The goal is to make a names cache so we can import any module from the users' installed modules into rope, then add that to pylsp either through the builin rope plugin or the seperate pylsp rope plugin.  
 This is a plugin for [Python LSP Server](https://github.com/python-lsp/python-lsp-server).
 
 ## Installation
